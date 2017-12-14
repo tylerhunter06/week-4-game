@@ -11,10 +11,10 @@ $(document).ready(function() {
         var targetNumber = Math.floor(Math.random() * (120/*max*/ - 19/*min*/ + 1)) + 19/*min*/;
         $(".targetNumber").html(targetNumber);
 
-        var crystalOne = Math.floor(Math.random() * (12 - 1 + 1)) + 1/*min*/;
-        var crystalTwo = Math.floor(Math.random() * (12/*max*/ - 1/*min*/ + 1)) + 1/*min*/;
-        var crystalThree = Math.floor(Math.random() * (12/*max*/ - 1/*min*/ + 1)) + 1/*min*/;
-        var crystalFour = Math.floor(Math.random() * (12/*max*/ - 1/*min*/ + 1)) + 1/*min*/;
+        var crystalOne = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+        var crystalTwo = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+        var crystalThree = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+        var crystalFour = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
 
         $(".crystalOne").click(function() {
             output += crystalOne;
